@@ -1,0 +1,32 @@
+{
+    "name": "vscode-snazzy",
+    "displayName": "Snazzy Theme",
+    "description": "VS Code theme based on hyper-snazzy with bright colors",
+    "version": "1.0.0",
+    "publisher": "alexanderbast",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Snazzy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/VSCode-Snazzy.tmTheme"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/alexanderbast/vscode-snazzy/issues",
+        "email": "alexander.bast@live.de"
+    },
+    "homepage": "https://github.com/alexanderbast/vscode-snazzy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexanderbast/vscode-snazzy"
+    }
+}
