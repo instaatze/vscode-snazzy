@@ -1,5 +1,4 @@
 .gitignore
 .vscodeignore
 .DS_Store
-sample.jpg
 *.vsix
