@@ -7,5 +7,4 @@ All notable changes to this theme will be documented in this file.
 - Initial workbench theming, trying to complement the standard VS Code style
 
 ## [1.0.0] - 2017-04-23
-### Changed
 - Initial release
