@@ -1,7 +1,7 @@
 # vscode-snazzy
 > VS Code theme based on hyper-snazzy with bright colors
 
-![](sample.jpg)
+![](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/sample.jpg)
 
 ## About
 Visual Studio Code theme based on hyper-snazzy colors from Sindre Sorhus.
@@ -15,8 +15,9 @@ Tested with the following languages:
 - Java
 - Python
 - Markdown
+- JSON
 
-Other languages have syntax highlighting too, just not guaranteed to be semantically.
+Other languages have syntax highlighting too, it's just not guaranteed to be semantic.
 
 ## Install
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=alexanderbast.vscode-snazzy)
