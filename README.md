@@ -1,6 +1,8 @@
 # vscode-snazzy
 > VS Code theme based on hyper-snazzy with bright colors
 
+[![](http://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![](http://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![](http://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy)
+
 ![](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/sample.jpg)
 
 ## About
@@ -20,7 +22,7 @@ Tested with the following languages:
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic.
 
 ## Install
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=alexanderbast.vscode-snazzy)
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy)
 
 ## Related
 - [VS Code](https://github.com/Microsoft/vscode) - Editor
