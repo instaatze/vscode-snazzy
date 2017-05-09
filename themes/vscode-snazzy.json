@@ -22,6 +22,7 @@
         "foreground": "#eff0eb"
       }
     },
+
     // General
     {
       "name": "Strong",
@@ -44,15 +45,25 @@
         "fontStyle": "underline"
       }
     },
+
     // Comments
     {
       "name": "Comment",
-      "scope": "comment, punctuation.definition.comment",
+      "scope": "comment, punctuation.definition.comment, string.quoted.docstring",
       "settings": {
         "foreground": "#616263",
         "fontStyle": "italic"
       }
     },
+    /*{
+      "name": "Comment link",
+      "scope": "comment markup.link",
+      "settings": {
+        "foreground": "#616263",
+        "fontStyle": "italic, bold"
+      }
+    },*/
+
     // Storage
     {
       "name": "Storage",
@@ -61,14 +72,16 @@
         "foreground": "#f3f99d"
       }
     },
+
     // Types
     {
       "name": "Type",
-      "scope": "storage.type.primitive, support.type, entity.name.type, entity.other.inherited-class, keyword.other.unit",
+      "scope": "storage.type.primitive, support.type, entity.name.type, keyword.type, keyword.other.unit",
       "settings": {
         "foreground": "#9aedfe"
       }
     },
+
     // Primitives & Strings
     {
       "name": "String",
@@ -105,14 +118,8 @@
         "foreground": "#5af78e"
       }
     },
+
     // Functions
-    {
-      "name": "Function call",
-      "scope": "entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.require, variable.language.super",
-      "settings": {
-        "foreground": "#57c7ff"
-      }
-    },
     {
       "name": "Function definition",
       "scope": "meta.function entity.name.function",
@@ -120,6 +127,21 @@
         "foreground": "#57c7ff"
       }
     },
+    {
+      "name": "Function call",
+      "scope": "entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.require, variable.language.super, keyword.other.get, keyword.other.set",
+      "settings": {
+        "foreground": "#57c7ff"
+      }
+    },
+    /*{
+      "name": "Function parameter",
+      "scope": "function.parameter",
+      "settings": {
+        "foreground": "#57c7ff"
+      }
+    },*/
+
     // Variables & Constants
     {
       "name": "Identifier",
@@ -135,10 +157,18 @@
         "foreground": "#f3f99d"
       }
     },
+
     // Classes
     {
       "name": "Class",
       "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#ff5c57"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
       "settings": {
         "foreground": "#ff5c57"
       }
@@ -157,14 +187,16 @@
         "foreground": "#f3f99d"
       }
     },
+
     // Keywords & Modifiers
     {
       "name": "Keyword",
-      "scope": "keyword, modifier, storage.modifier, support.type.object, constant.language, variable.language.this",
+      "scope": "keyword, modifier, storage.modifier, support.type.object, constant.language, variable.language.this, variable.language.special.self",
       "settings": {
         "foreground": "#ff6ac1"
       }
     },
+
     // Modules
     {
       "name": "Modules",
@@ -174,6 +206,7 @@
         "fontStyle": "italic"
       }
     },
+
     // Templates
     {
       "name": "Template expression",
@@ -182,6 +215,7 @@
         "foreground": "#ff6ac1"
       }
     },
+
     // Exceptions
     {
       "name": "Exception",
@@ -190,6 +224,7 @@
         "foreground": "#f3f99d"
       }
     },
+
     // Diffs
     {
       "name": "Diff insertion",
@@ -207,6 +242,7 @@
         "background": "#616263"
       }
     },
+
     // C#
     {
       "name": "C# class",
@@ -223,7 +259,7 @@
       }
     },
     {
-      "name": "C# function call",
+      "name": "C# method call",
       "scope": "source.cs meta.method-call meta.method, source.cs entity.name.function",
       "settings": {
         "foreground": "#57c7ff"
@@ -257,6 +293,7 @@
         "foreground": "#eff0eb"
       }
     },
+
     // CSS
     {
       "name": "CSS class",
@@ -286,7 +323,8 @@
         "foreground": "#ff5c57"
       }
     },
-    // HTML & JSX
+
+    // HTML & XML & JSX
     {
       "name": "HTML tag outer",
       "scope": "meta.tag, punctuation.definition.tag",
@@ -315,6 +353,7 @@
         "foreground": "#ff5c57"
       }
     },
+
     // INI
     {
       "name": "INI property name",
@@ -330,6 +369,59 @@
         "foreground": "#57c7ff"
       }
     },
+
+    // Java storage.type.annotation
+    {
+      "name": "Java package & import",
+      "scope": "source.java storage.modifier.package, source.java storage.modifier.import",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
+      "name": "Java annotation",
+      "scope": "source.java storage.type.annotation",
+      "settings": {
+        "foreground": "#ff5c57",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Java method call",
+      "scope": "source.java meta.method-call meta.method",
+      "settings": {
+        "foreground": "#57c7ff"
+      }
+    },
+    {
+      "name": "Java inner-class variable", // strange
+      "scope": "source.java meta.method-call meta.inner-class meta.method",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
+      "name": "Java inner-class method call",
+      "scope": "source.java meta.method-call meta.inner-class meta.method meta.method-call meta.method",
+      "settings": {
+        "foreground": "#57c7ff"
+      }
+    },
+    {
+      "name": "Java inner-class method",
+      "scope": "source.java meta.definition.variable entity.name.function",
+      "settings": {
+        "foreground": "#57c7ff"
+      }
+    },
+    {
+      "name": "Java null",
+      "scope": "source.java constant.language",
+      "settings": {
+        "foreground": "#5af78e"
+      }
+    },
+
     // Javascript
     {
       "name": "Async",
@@ -338,6 +430,7 @@
         "foreground": "#ff6ac1"
       }
     },
+
     // JSON
     {
       "name": "JSON key",
@@ -353,6 +446,7 @@
         "foreground": "#ff6ac1"
       }
     },
+
     // Markdown
     {
       "name": "Markdown heading",
@@ -413,6 +507,44 @@
         "fontStyle": "italic bold"
       }
     },
+
+    // Python
+    {
+      "name": "Python import *",
+      "scope": "source.python keyword.operator.arithmetic",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
+      "name": "Python def",
+      "scope": "source.python meta.function storage.type.function",
+      "settings": {
+        "foreground": "#ff6ac1"
+      }
+    },
+    {
+      "name": "Python function arguments",
+      "scope": "source.python meta.function-call.arguments",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
+      "name": "Python function decorators",
+      "scope": "source.python meta.function entity.name.function.decorator",
+      "settings": {
+        "foreground": "#ff5c57"
+      }
+    },
+    {
+      "name": "Python True & False & None",
+      "scope": "source.python constant.language",
+      "settings": {
+        "foreground": "#5af78e"
+      }
+    },
+
     // YAML
     {
       "name": "YAML key",
@@ -453,6 +585,10 @@
     // Peek view
     "peekView.border": "#5af78e",
     "peekViewEditor.background": "#282a36",
+
+    // File list
+    "list.activeSelectionBackground": "#54555e",
+    "list.hoverBackground": "#54555e",
 
     // Statusbar
     "statusBar.background": "#333333",
