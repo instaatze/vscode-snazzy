@@ -9,16 +9,16 @@
 Visual Studio Code theme based on hyper-snazzy colors from Sindre Sorhus.
 
 Tested with the following languages:
-- HTML
-- CSS
-- Javascript
-- Typescript
+- HTML, XML, JSX
+- CSS, LESS, SCSS
+- Javascript, Typescript
 - C#
 - Java
 - Python
 - Markdown
 - JSON
 - INI
+- YAML
 
 Other languages have syntax highlighting too, it's just not guaranteed to be semantic.
 

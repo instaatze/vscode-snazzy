@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this theme will be documented in this file.
 
+## [2.2.0] - 2017-05-17
+- Generalized more rules so they should affect more languages
+- Class functions & methods are now colored like functions/methods and not like class members
+- CSS colors now better reflect HTML/JSX colors
+- General improvements: Constants, Expressions
+- Diff coloring
+
 ## [2.1.0] - 2017-05-09
 - Java improvements: package, import, annotations, method calls, inner-class method, null
 - C# improvements: types, get, set
