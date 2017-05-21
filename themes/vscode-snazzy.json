@@ -1,5 +1,5 @@
-// foregroundColor / black = '#eff0eb'
-// backgroundColor / white = '#282a36'
+// foregroundColor / white = '#eff0eb'
+// backgroundColor / black = '#282a36'
 // cursorColor: '#97979b'
 // hightlightColor: '#54555e'
 // red = '#ff5c57'
@@ -49,6 +49,20 @@
 
     // Diffs
     {
+      "name": "Diff seperator",
+      "scope": "punctuation.definition.separator.diff",
+      "settings": {
+        "foreground": "#616263"
+      }
+    },
+    {
+      "name": "Diff line numbers",
+      "scope": "meta.diff.range.unified meta.toc-list.line-number.diff",
+      "settings": {
+        "foreground": "#ff6ac1"
+      }
+    },
+    {
       "name": "Diff insertion",
       "scope": "markup.inserted.diff, meta.diff.header.to-file",
       "settings": {
@@ -65,7 +79,7 @@
       }
     },
     {
-      "name": "Diff deletion",
+      "name": "Diff change",
       "scope": "markup.changed.diff",
       "settings": {
         "foreground": "#57c7ff",
@@ -137,6 +151,22 @@
       }
     },
 
+    // Punctuation
+    {
+      "name": "Punctuation accessor",
+      "scope": "punctuation.accessor",
+      "settings": {
+        "foreground": "#ff6ac1"
+      }
+    },
+    {
+      "name": "Punctuation seperator",
+      "scope": "punctuation.seperator",
+      "settings": {
+        "foreground": "#ff6ac1"
+      }
+    },
+
     // Comments - gray
     {
       "name": "Comment",
@@ -155,17 +185,45 @@
       }
     },
 
-    // Variables & Preprocessor - white
+    // Variables & function paramters & top of files - white
     {
-      "name": "Identifier",
+      "name": "Variable",
       "scope": "variable, support.variable, meta.definition.variable entity.name.function",
       "settings": {
         "foreground": "#eff0eb"
       }
     },
     {
+      "name": "Function parameter",
+      "scope": "function.parameter, meta.function-call.arguments",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
       "name": "Preprocessor",
-      "scope": "meta.preprocessor",
+      "scope": "meta.preprocessor string, meta.preprocessor entity.name.function",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": "entity.name.type.namespace",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
+      "name": "Package",
+      "scope": "storage.modifier.package",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
+      "name": "Import",
+      "scope": "storage.modifier.import",
       "settings": {
         "foreground": "#eff0eb"
       }
@@ -241,7 +299,7 @@
     },
     {
       "name": "Constant",
-      "scope": "support.constant, variable.other.constant.property, constant.other",
+      "scope": "constant.other, support.constant, variable.other.constant, variable.other.global",
       "settings": {
         "foreground": "#f3f99d"
       }
@@ -266,32 +324,32 @@
     // Function definitions & calls - blue
     {
       "name": "Function definition",
-      "scope": "meta.function entity.name.function",
+      "scope": "meta.function entity.name.function, keyword.other.get, keyword.other.set",
       "settings": {
         "foreground": "#57c7ff"
       }
     },
     {
       "name": "Function call",
-      "scope": "entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.require, variable.language.super, keyword.other.get, keyword.other.set",
+      "scope": "entity.name.function, support.function, meta.function-call, keyword.other.special-method, meta.require, variable.language.super",
       "settings": {
         "foreground": "#57c7ff"
       }
     },
     {
-      "name": "Class method",
+      "name": "Method definition",
       "scope": "meta.definition.method entity.name.function",
       "settings": {
         "foreground": "#57c7ff"
       }
     },
-    /*{
-      "name": "Function parameter",
-      "scope": "function.parameter",
+    {
+      "name": "Method call",
+      "scope": "meta.method-call meta.method",
       "settings": {
         "foreground": "#57c7ff"
       }
-    },*/
+    },
 
     // Classes & Modules & Expressions & Object keys - red
     {
@@ -302,7 +360,7 @@
       }
     },
     {
-      "name": "Inherited class",
+      "name": "Inherited class name",
       "scope": "entity.other.inherited-class",
       "settings": {
         "foreground": "#ff5c57"
@@ -318,7 +376,7 @@
     },
     {
       "name": "Expression",
-      "scope": "punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
+      "scope": "punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, punctuation.definition.variable",
       "settings": {
         "foreground": "#ff5c57"
       }
@@ -330,8 +388,33 @@
         "foreground": "#ff5c57"
       }
     },
+    {
+      "name": "Annotation",
+      "scope": "storage.type.annotation",
+      "settings": {
+        "foreground": "#ff5c57"
+      }
+    },
 
     /* LANGUAGE SPECIFICS & OVERRIDES */
+    // C
+    {
+      "name": "C function paramter",
+      "scope": "source.c meta.function-call",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+
+    // C++
+    {
+      "name": "C++ function paramter",
+      "scope": "source.cpp meta.function-call",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+
     // C#
     {
       "name": "C# class",
@@ -355,31 +438,10 @@
       }
     },
     {
-      "name": "C# type",
-      "scope": "source.cs storage.type",
-      "settings": {
-        "foreground": "#f3f99d"
-      }
-    },
-    {
       "name": "C# return type",
       "scope": "source.cs meta.method.return-type",
       "settings": {
         "foreground": "#9aedfe"
-      }
-    },
-    /*{
-      "name": "C# preprocessor",
-      "scope": "source.cs meta.preprocessor",
-      "settings": {
-        "foreground": "#616263"
-      }
-    },*/
-    {
-      "name": "C# namespace",
-      "scope": "source.cs entity.name.type.namespace",
-      "settings": {
-        "foreground": "#eff0eb"
       }
     },
 
@@ -422,8 +484,15 @@
 
     // HTML & XML & JSX
     {
+      "name": "HTML doctype",
+      "scope": "text.html meta.tag.sgml.doctype",
+      "settings": {
+        "foreground": "#ff6ac1"
+      }
+    },
+    {
       "name": "HTML tag outer",
-      "scope": "meta.tag, punctuation.definition.tag",
+      "scope": "punctuation.definition.tag",
       "settings": {
         "foreground": "#eff0eb"
       }
@@ -467,21 +536,6 @@
     },
 
     // Java
-    {
-      "name": "Java package & import",
-      "scope": "source.java storage.modifier.package, source.java storage.modifier.import",
-      "settings": {
-        "foreground": "#eff0eb"
-      }
-    },
-    {
-      "name": "Java annotation",
-      "scope": "source.java storage.type.annotation",
-      "settings": {
-        "foreground": "#ff5c57",
-        "fontStyle": "italic"
-      }
-    },
     {
       "name": "Java method call",
       "scope": "source.java meta.method-call meta.method",
@@ -535,13 +589,6 @@
         "foreground": "#ff5c57"
       }
     },
-    /*{
-      "name": "JSON constant",
-      "scope": "constant.language.json",
-      "settings": {
-        "foreground": "#ff6ac1"
-      }
-    },*/
 
     // Markdown
     {
@@ -608,20 +655,6 @@
     {
       "name": "Python import *",
       "scope": "source.python keyword.operator.arithmetic",
-      "settings": {
-        "foreground": "#eff0eb"
-      }
-    },
-    {
-      "name": "Python def",
-      "scope": "source.python meta.function storage.type.function",
-      "settings": {
-        "foreground": "#ff6ac1"
-      }
-    },
-    {
-      "name": "Python function argument",
-      "scope": "source.python meta.function-call.arguments",
       "settings": {
         "foreground": "#eff0eb"
       }
