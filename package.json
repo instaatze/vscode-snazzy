@@ -2,7 +2,7 @@
     "name": "vscode-snazzy",
     "displayName": "Snazzy Theme",
     "description": "VS Code theme based on hyper-snazzy with bright colors",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "publisher": "alexanderbast",
     "license": "MIT",
     "bugs": {
