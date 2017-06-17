@@ -2,7 +2,7 @@
     "name": "vscode-snazzy",
     "displayName": "Snazzy Theme",
     "description": "VS Code theme based on hyper-snazzy with bright colors",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "publisher": "alexanderbast",
     "license": "MIT",
     "bugs": {
@@ -51,6 +51,11 @@
             "url": "http://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg",
             "href": "https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy",
             "description": "Extension rating"
+        },
+        {
+            "url": "https://img.shields.io/badge/license-MIT-blue.svg",
+            "href": "https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE",
+            "description": "Extension license"
         }
     ]
 }
