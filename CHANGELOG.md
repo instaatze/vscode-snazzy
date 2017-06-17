@@ -2,11 +2,20 @@
 
 All notable changes to this theme will be documented in this file.
 
+## [2.4.0] - 2017-06-17
+
+- VS Code update 1.13 introduced JSX/TSX component highlighting, which lead to yellow component tags with this theme. They're red again, but component tags are now underlined to seperate them from HTML tags
+- The namespace part of XSLT tags is now underlined too to seperate them from HTML tags. Unfortunally, it's currently not possible to underline the whole tag because of missing language support from VS Code
+- Javascript improvements: destructuring parameter type annotion
+- TypeScript improvements: import *, destructuring parameter type annotion
+- Workbench theming improvements: highlighting, badges, focus borders
+- Fixed a slight difference between the terminal colors and the hyper-snazzy colors, which also fixes things like autosuggestions (if using zsh or fish) to be invisible
+
 ## [2.3.0] - 2017-05-21
 
 - Generalized more rules so they should affect more languages
 - Python def is yellow again to be semantically in line with this theme
-- C & C++ improvements: preprocessors, function paramters
+- C & C++ improvements: preprocessors, function parameters
 - HTML improvements: doctype
 - Punctuation improvements: variable definitions, accessors, seperators
 - Diff improvements: seperators, line numbers
@@ -19,7 +28,7 @@ All notable changes to this theme will be documented in this file.
 - Class functions & methods are now colored like functions/methods and not like class members
 - CSS colors now better reflect HTML/JSX colors
 - General improvements: constants, expressions
-- Diff theming
+- Diff file theming
 
 ## [2.1.0] - 2017-05-09
 
