@@ -2,6 +2,12 @@
 
 All notable changes to this theme will be documented in this file.
 
+## [2.5.0] - 2017-07-23
+
+- VS Code update 1.14.1 added the ability to theme the terminal cursor, so now the terminal cursor color reflects the hyper-snazzy cursor color. Unfortunally, it's currently not possible to let the cursor background color (the color of the character behind it with block style) just have the color of the character behind it
+- VS Code update July 2017 should add the ability to theme the editor cursor background color, so this is already added to the theme as well
+- Added .png icon and changed badge URLs to comply with the new image constraints of VS Code extensions
+
 ## [2.4.0] - 2017-06-17
 
 - VS Code update 1.13 introduced JSX/TSX component highlighting, which lead to yellow component tags with this theme. They're red again, but component tags are now underlined to seperate them from HTML tags

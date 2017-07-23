@@ -1,5 +1,9 @@
+.git/
+.vscode/
+testfiles/
+.DS_Store
 .gitignore
 .vscodeignore
-.DS_Store
+icon.svg
 sample.jpg
 *.vsix

@@ -2,7 +2,7 @@
 
 > VS Code theme based on hyper-snazzy with bright colors
 
-[![](http://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Code Marketplace](http://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![](http://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE)
+[![](https://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Code Marketplace](https://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![](https://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE)
 
 ![](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/sample.jpg)
 

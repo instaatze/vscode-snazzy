@@ -2,7 +2,7 @@
     "name": "vscode-snazzy",
     "displayName": "Snazzy Theme",
     "description": "VS Code theme based on hyper-snazzy with bright colors",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "publisher": "alexanderbast",
     "license": "MIT",
     "bugs": {
@@ -19,7 +19,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "icon.svg",
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
@@ -38,24 +38,24 @@
     ],
     "badges": [
         {
-            "url": "http://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg",
+            "url": "https://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg",
             "href": "https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy",
-            "description": "Extension version"
+            "description": "Theme version"
         },
         {
-            "url": "http://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg",
+            "url": "https://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg",
             "href": "https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy",
-            "description": "Extension installs"
+            "description": "Theme installs"
         },
         {
-            "url": "http://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg",
+            "url": "https://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg",
             "href": "https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy",
-            "description": "Extension rating"
+            "description": "Theme rating"
         },
         {
             "url": "https://img.shields.io/badge/license-MIT-blue.svg",
             "href": "https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE",
-            "description": "Extension license"
+            "description": "Theme license"
         }
     ]
 }
