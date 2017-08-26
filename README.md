@@ -2,28 +2,32 @@
 
 > VS Code theme based on hyper-snazzy with bright colors
 
-[![](https://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Code Marketplace](https://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![](https://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE)
 
 ![](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/sample.jpg)
 
 ## About
 
-Visual Studio Code theme based on hyper-snazzy colors from Sindre Sorhus.
+Visual Studio Code theme based on hyper-snazzy colors from [Sindre Sorhus](https://github.com/sindresorhus).
 
 Tested with the following languages:
 
-- HTML, XML, JSX
+- HTML, XML, XSLT, JSX
 - CSS, LESS, SCSS
-- Javascript, Typescript
-- C & C++ (mostly, feedback desired)
+- Javascript, CoffeeScript, Typescript
+- C & C++
 - C#
 - Java
 - Python
+- Ruby
+- PHP
 - Markdown
 - JSON
 - INI, YAML
+- SQL (as far as VS Code supports it)
 
-Other languages have syntax highlighting too, it's just not guaranteed to be semantic.
+Other languages have syntax highlighting too, it's just not guaranteed to be semantic (feel free to give feedback!).
+The theme also includes workbench theming, while trying to keep the default VS Code look and feel.
 
 ## Install
 
