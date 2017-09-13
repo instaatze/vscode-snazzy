@@ -822,13 +822,12 @@
     "focusBorder": "#57c7ff",
     "foreground": "#eff0eb",
     "selection.background": "#54555e",
+    "errorForeground": "#eff0eb",
 
-    "infoBackground": "#57c7ff",
-    "infoBorder": "#eff0eb",
-    "warningBackground": "#f3f99d",
-    "warningBorder": "#eff0eb",
-    "errorBackground": "#ff5c57",
-    "errorBorder": "#eff0eb",
+    // Input
+    "inputValidation.errorBorder": "#ff5c57",
+    "inputValidation.infoBorder": "#9aedfe",
+    "inputValidation.warningBorder": "#f3f99d",
 
     // Badge
     "badge.foreground": "#ffffff",
@@ -871,12 +870,19 @@
     "editorBracketMatch.background": "#54555e",
     "editorBracketMatch.border": "#eff0eb",
 
+    "editorOverviewRuler.modifiedForeground": "#57c7ff",
+    "editorOverviewRuler.addedForeground": "#57c7ff",
+    "editorOverviewRuler.deletedForeground": "#57c7ff",
+    "editorOverviewRuler.errorForeground": "#ff5c57",
+    "editorOverviewRuler.warningForeground": "#f3f99d",
+    "editorOverviewRuler.infoForeground": "#9aedfe",
+
     "editorError.foreground": "#ff5c57",
     "editorWarning.foreground": "#f3f99d",
 
-    // "editorGutter.modifiedBackground": "#57c7ff",
-    // "editorGutter.addedBackground": "#5af78e",
-    // "editorGutter.deletedBackground": "#ff5c57",
+    "editorGutter.modifiedBackground": "#57c7ff",
+    "editorGutter.addedBackground": "#5af78e",
+    "editorGutter.deletedBackground": "#ff5c57",
 
     // Diff editor
     // "diffEditor.insertedTextBorder": "#5af78e",
@@ -893,6 +899,20 @@
     // Statusbar
     "statusBar.background": "#333333",
     "statusBar.noFolderBackground": "#333333",
+
+    // Title bar (macOS)
+    // "titleBar.activeBackground": "#333333",
+    // "titleBar.activeForeground": "#eff0eb",
+    // "titleBar.inactiveBackground": "#333333",
+    // "titleBar.inactiveForeground": "#eff0eb",
+
+    // Notifications
+    // "notification.infoBackground": "#9aedfe",
+    // "notification.infoForeground": "#282a36",
+    // "notification.warningBackground": "#f3f99d",
+    // "notification.warningForeground": "#282a36",
+    // "notification.errorBackground": "#ff5c57",
+    // "notification.errorForeground": "#282a36",
 
     // Terminal
     "terminal.ansiBlack": "#282a36",

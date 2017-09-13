@@ -8,6 +8,7 @@
 
 ## About
 
+The original.
 Visual Studio Code theme based on hyper-snazzy colors from [Sindre Sorhus](https://github.com/sindresorhus).
 
 Tested with the following languages:

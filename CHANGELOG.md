@@ -2,6 +2,11 @@
 
 All notable changes to this theme will be documented in this file.
 
+## [2.6.0] - 2017-09-14
+
+- Workbench theming improvements: input validation, colors for modified, added and deleted content in the gutter (left), colors for modified content, errors, warnings and info in the ruler (right)
+- Excluded unnecessary files from package (.vscodeignore matches differently than .gitignore)
+
 ## [2.5.0] - 2017-07-23
 
 - VS Code update 1.14.1 added the ability to theme the terminal cursor, so now the terminal cursor color reflects the hyper-snazzy cursor color. Unfortunally, it's currently not possible to let the cursor background color (the color of the character behind it with block style) just have the color of the character behind it
