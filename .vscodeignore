@@ -1,6 +1,6 @@
-.git/
-.vscode/
-testfiles/
+.git/**
+.vscode/**
+testfiles/**
 .DS_Store
 .gitignore
 .vscodeignore
