@@ -2,6 +2,11 @@
 
 All notable changes to this theme will be documented in this file.
 
+## [2.7.0] - 2017-10-01
+
+- Escape sequences highlighting ([#1](https://github.com/alexanderbast/vscode-snazzy/issues/1))
+- Workbench theming improvements: diff editor colors
+
 ## [2.6.0] - 2017-09-14
 
 - Workbench theming improvements: input validation, colors for modified, added and deleted content in the gutter (left), colors for modified content, errors, warnings and info in the ruler (right)

@@ -1,8 +1,6 @@
-# vscode-snazzy
+# vscode-snazzy &middot; [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE)
 
 > VS Code theme based on hyper-snazzy with bright colors
-
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/rating-short/alexanderbast.vscode-snazzy.svg)](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/LICENSE)
 
 ![](https://raw.githubusercontent.com/alexanderbast/vscode-snazzy/master/sample.jpg)
 
@@ -35,6 +33,8 @@ The theme also includes workbench theming, while trying to keep the default VS C
 This theme is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy).
 
 It can be installed by typing `⌘P` and running `ext install vscode-snazzy` or by typing `⇧⌘X` and selecting it in the extensions search.
+
+Alternately, you can download the bundled VSIX file and install it through the extension section in VS Code.
 
 ## Related
 

@@ -166,7 +166,7 @@
       }
     },
 
-    // Punctuation
+    // Punctuation - magenta
     {
       "name": "Punctuation accessor",
       "scope": "punctuation.accessor",
@@ -355,6 +355,13 @@
     {
       "name": "Class variable",
       "scope": "variable.object.property",
+      "settings": {
+        "foreground": "#f3f99d"
+      }
+    },
+    {
+      "name": "Escape sequences",
+      "scope": "constant.character.escape",
       "settings": {
         "foreground": "#f3f99d"
       }
@@ -650,14 +657,20 @@
     // Javascript
     {
       "name": "Javascript async",
-      "scope": "source.js storage.modifier.async",
+      "scope": [
+        "source.js storage.modifier.async",
+        "source.jsx storage.modifier.async"
+      ],
       "settings": {
         "foreground": "#ff6ac1"
       }
     },
     {
       "name": "Javascript destructuring parameter type annotion",
-      "scope": "source.js variable.object.property",
+      "scope": [
+        "source.js variable.object.property",
+        "source.jsx variable.object.property"
+      ],
       "settings": {
         "foreground": "#eff0eb"
       }
@@ -885,8 +898,8 @@
     "editorGutter.deletedBackground": "#ff5c57",
 
     // Diff editor
-    // "diffEditor.insertedTextBorder": "#5af78e",
-    // "diffEditor.removedTextBorder": "#ff5c57",
+    "diffEditor.insertedTextBackground": "#5af78e33",
+    "diffEditor.removedTextBackground": "#ff5c5733",
 
     // Peek view
     "peekView.border": "#5af78e",
