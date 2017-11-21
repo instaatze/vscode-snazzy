@@ -2,6 +2,12 @@
 
 All notable changes to this theme will be documented in this file.
 
+## [2.8.0] - 2017-11-21
+
+- Javascript improvements: import *
+- Batch improvements: sigils
+- Workbench theming improvements: git decoration colors
+
 ## [2.7.0] - 2017-10-01
 
 - Escape sequences highlighting ([#1](https://github.com/alexanderbast/vscode-snazzy/issues/1))

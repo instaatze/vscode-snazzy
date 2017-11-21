@@ -32,9 +32,9 @@ The theme also includes workbench theming, while trying to keep the default VS C
 
 This theme is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/alexanderbast.vscode-snazzy).
 
-It can be installed by typing `⌘P` and running `ext install vscode-snazzy` or by typing `⇧⌘X` and selecting it in the extensions search.
+It can be installed by the shortcut `⌘P` and typing `ext install snazzy theme` or by the shortcut `⇧⌘X` and typing `snazzy theme`.
 
-Alternately, you can download the bundled VSIX file and install it through the extension section in VS Code.
+Alternately, you can download the bundled VSIX file and install it through the extensions section in VS Code.
 
 ## Related
 
