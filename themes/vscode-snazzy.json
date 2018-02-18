@@ -457,10 +457,11 @@
         "foreground": "#ff5c57"
       }
     },
+
     // C
     {
-      "name": "C function paramter",
-      "scope": "source.c meta.function-call",
+      "name": "C function parameter",
+      "scope": "meta.function-call.c",
       "settings": {
         "foreground": "#eff0eb"
       }
@@ -468,8 +469,8 @@
 
     // C++
     {
-      "name": "C++ function paramter",
-      "scope": "source.cpp meta.function-call",
+      "name": "C++ function parameter",
+      "scope": "meta.function-call.cpp",
       "settings": {
         "foreground": "#eff0eb"
       }
@@ -478,14 +479,14 @@
     // C#
     {
       "name": "C# class",
-      "scope": "source.cs meta.class.identifier storage.type",
+      "scope": "meta.class.identifier.cs storage.type.cs",
       "settings": {
         "foreground": "#ff5c57"
       }
     },
     {
       "name": "C# class method",
-      "scope": "source.cs meta.method.identifier entity.name.function",
+      "scope": "meta.method.identifier.cs entity.name.function.cs",
       "settings": {
         "foreground": "#57c7ff"
       }
@@ -493,8 +494,8 @@
     {
       "name": "C# method call",
       "scope": [
-        "source.cs meta.method-call meta.method",
-        "source.cs entity.name.function"
+        "meta.method-call.cs meta.method.cs",
+        "entity.name.function.cs"
       ],
       "settings": {
         "foreground": "#57c7ff"
@@ -502,7 +503,7 @@
     },
     {
       "name": "C# return type",
-      "scope": "source.cs meta.method.return-type",
+      "scope": "meta.method.return-type.cs",
       "settings": {
         "foreground": "#9aedfe"
       }
@@ -511,7 +512,7 @@
     // CSS
     {
       "name": "CSS tag",
-      "scope": "source.css entity.name.tag",
+      "scope": "entity.name.tag.css",
       "settings": {
         "foreground": "#ff5c57"
       }
@@ -532,14 +533,14 @@
     },
     {
       "name": "CSS property",
-      "scope": "source.css support.type.property-name",
+      "scope": "support.type.property-name.css",
       "settings": {
         "foreground": "#eff0eb"
       }
     },
     {
       "name": "CSS punctuation",
-      "scope": "source.css punctuation.definition.entity",
+      "scope": "punctuation.definition.entity.css",
       "settings": {
         "foreground": "#eff0eb"
       }
@@ -600,15 +601,29 @@
 
     // Java
     {
+      "name": "Java implemented interface",
+      "scope": "meta.definition.class.implemented.interfaces.java entity.other.inherited-class.java",
+      "settings": {
+        "foreground": "#9aedfe"
+      }
+    },
+    {
       "name": "Java method call",
-      "scope": "source.java meta.method-call meta.method",
+      "scope": "meta.method-call.java meta.method.java",
       "settings": {
         "foreground": "#57c7ff"
       }
     },
     {
+      "name": "Java method parameter",
+      "scope": "meta.function-call.java",
+      "settings": {
+        "foreground": "#eff0eb"
+      }
+    },
+    {
       "name": "Java inner-class variable", // strange
-      "scope": "source.java meta.method-call meta.inner-class meta.method",
+      "scope": "meta.method-call.java meta.inner-class.java meta.method.java",
       "settings": {
         "foreground": "#eff0eb"
       }
@@ -616,21 +631,21 @@
     {
       "name": "Java inner-class method call",
       "scope":
-        "source.java meta.method-call meta.inner-class meta.method meta.method-call meta.method",
+        "meta.method-call.java meta.inner-class.java meta.method.java meta.method-call.java meta.method.java",
       "settings": {
         "foreground": "#57c7ff"
       }
     },
     {
       "name": "Java inner-class method",
-      "scope": "source.java meta.definition.variable entity.name.function",
+      "scope": "meta.definition.variable.java entity.name.function.java",
       "settings": {
         "foreground": "#57c7ff"
       }
     },
     {
       "name": "Java null",
-      "scope": "source.java constant.language",
+      "scope": "constant.language.java",
       "settings": {
         "foreground": "#5af78e"
       }
@@ -640,8 +655,8 @@
     {
       "name": "Javascript import *",
       "scope": [
-        "source.js constant.language.import-export-all",
-        "source.jsx constant.language.import-export-all"
+        "constant.language.import-export-all.js",
+        "constant.language.import-export-all.jsx"
       ],
       "settings": {
         "foreground": "#eff0eb"
@@ -650,8 +665,8 @@
     {
       "name": "Javascript async",
       "scope": [
-        "source.js storage.modifier.async",
-        "source.jsx storage.modifier.async"
+        "storage.modifier.async.js",
+        "storage.modifier.async.jsx"
       ],
       "settings": {
         "foreground": "#ff6ac1"
@@ -660,8 +675,8 @@
     {
       "name": "Javascript destructuring parameter type annotion",
       "scope": [
-        "source.js variable.object.property",
-        "source.jsx variable.object.property"
+        "variable.object.property.js",
+        "variable.object.property.jsx"
       ],
       "settings": {
         "foreground": "#eff0eb"
@@ -725,7 +740,7 @@
     },
     {
       "name": "Markdown code",
-      "scope": "text.html.markdown markup.inline.raw",
+      "scope": ["text.html.markdown markup.inline.raw", "text.html.markdown markup.fenced_code.block.markdown"],
       "settings": {
         "foreground": "#ff6ac1"
       }
@@ -758,21 +773,21 @@
     // Python
     {
       "name": "Python import *",
-      "scope": "source.python keyword.operator.arithmetic",
+      "scope": "keyword.operator.arithmetic.python",
       "settings": {
         "foreground": "#eff0eb"
       }
     },
     {
       "name": "Python function decorator",
-      "scope": "source.python meta.function entity.name.function.decorator",
+      "scope": "meta.function.python entity.name.function.decorator.python",
       "settings": {
         "foreground": "#ff5c57"
       }
     },
     {
       "name": "Python True & False & None",
-      "scope": "source.python constant.language",
+      "scope": "constant.language.python",
       "settings": {
         "foreground": "#5af78e"
       }
@@ -782,8 +797,8 @@
     {
       "name": "TypeScript import *",
       "scope": [
-        "source.ts constant.language.import-export-all",
-        "source.tsx constant.language.import-export-all"
+        "constant.language.import-export-all.ts",
+        "constant.language.import-export-all.tsx"
       ],
       "settings": {
         "foreground": "#eff0eb"
@@ -792,8 +807,8 @@
     {
       "name": "TypeScript destructuring parameter type annotion",
       "scope": [
-        "source.ts variable.object.property",
-        "source.tsx variable.object.property"
+        "variable.object.property.ts",
+        "variable.object.property.tsx"
       ],
       "settings": {
         "foreground": "#eff0eb"
@@ -846,6 +861,7 @@
     "editorCursor.background": "#eff0eb",
 
     "editor.selectionBackground": "#54555e",
+    // "editor.selectionForeground": "#eff0eb",
     "editor.selectionHighlightBackground": "#54555e",
     "editor.inactiveSelectionBackground": "#54555e",
 

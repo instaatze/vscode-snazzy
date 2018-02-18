@@ -36,6 +36,15 @@ It can be installed by the shortcut `⌘P` and typing `ext install snazzy theme`
 
 Alternately, you can download the bundled VSIX file and install it through the extensions section in VS Code.
 
+To override certain colors of this theme you can put the following in your settings:
+```
+"editor.tokenColorCustomizations": {
+    "[Snazzy]": {
+        // customizations
+    }
+},
+```
+
 ## Related
 
 - [VS Code](https://github.com/Microsoft/vscode) - Editor

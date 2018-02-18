@@ -2,6 +2,11 @@
 
 All notable changes to this theme will be documented in this file.
 
+## [2.9.0] - 2018-02-18
+
+- Java improvements: method parameters, implemented interfaces
+- Markdown improvements: refactored all language specific customizations so that they apply to markdown code blocks too, code block highlighting ([#3](https://github.com/alexanderbast/vscode-snazzy/issues/3))
+
 ## [2.8.0] - 2017-11-21
 
 - Javascript improvements: import *
